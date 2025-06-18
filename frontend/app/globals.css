@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-date-input {
+  @apply px-4 py-2 rounded-lg border border-[#fe7f2d] text-white text-sm bg-[#fe7f2d] font-medium outline-none shadow-md transition duration-200 ease-in-out;
+  cursor: pointer;
+}
+
+.custom-date-input:hover {
+  background-color: #f76d1f;
+}
+
+.custom-date-input:focus {
+  box-shadow: 0 0 0 3px rgba(254, 127, 45, 0.4);
+}
+
+input.custom-date-input::placeholder {
+  color: white !important;
+  opacity: 1;
+}
