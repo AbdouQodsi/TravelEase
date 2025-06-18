@@ -149,7 +149,7 @@ const chatbot: React.FC = () => {
   },
   {
     headers: {
-      Authorization: "Bearer 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", 
+      Authorization: "Bearer ???", 
       "Content-Type": "application/json",
       "HTTP-Referer": "http://localhost"
     }
